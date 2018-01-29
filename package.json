@@ -1,0 +1,21 @@
+{
+  "name": "fc_es6_p5.github.io",
+  "version": "1.0.0",
+  "description": "node&mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start_ndm": "nodemon server.js",
+    "start_ndm_debug": "nodemon server.js --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "9.4.0"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "pug": "2.0.0-rc.4",
+    "winston": "3.0.0-rc1"
+  }
+}

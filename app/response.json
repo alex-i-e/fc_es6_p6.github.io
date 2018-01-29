@@ -1,0 +1,17 @@
+{
+  "get": {
+    "value": "get"
+  },
+  "get_id": {
+    "value": "get_id"
+  },
+  "post": {
+    "value": "post"
+  },
+  "put_id": {
+    "value": "put_id"
+  },
+  "delete_id": {
+    "value": "delete_id"
+  }
+}
