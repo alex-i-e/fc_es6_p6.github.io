@@ -38,4 +38,14 @@ module.exports = (router, logger) => {
         });
         res.json(news.delete_id);
     });
+
+    // OTHER mock routes
+    // =============================================================================
+    router.get('/mock', (req, res) => {
+        logger.log({
+            level: 'info',
+            message: `API: GET => /mock`
+        });
+        res.json(news.mock);
+    });
 };
