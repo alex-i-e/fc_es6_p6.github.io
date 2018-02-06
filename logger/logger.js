@@ -29,5 +29,12 @@ if (process.env.NODE_ENV !== 'production') {
         format: winston.format.simple()
     }));
 }
+logger.initLogger = (req, res) => {
+    logger.log({
+        level: 'info',
+        message: `INIT: Starting index page!`
+    });
+    res.render('index', {title: '[Welcome]', message: 'Hello there!'})
+};
 
 module.exports = logger;
