@@ -1,4 +1,4 @@
-# fc_es6_p5.github.io
+# fc_es6_p6.github.io
 NodeJS - server
 
 Start the project:

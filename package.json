@@ -1,5 +1,5 @@
 {
-  "name": "fc_es6_p5.github.io",
+  "name": "fc_es6_p6.github.io",
   "version": "1.0.0",
   "description": "node&mongo",
   "main": "index.js",
@@ -14,7 +14,10 @@
     "node": "9.4.0"
   },
   "dependencies": {
+    "async": "2.6.0",
     "express": "4.16.2",
+    "mongoose": "5.0.3",
+    "passport-google-oauth": "1.0.0",
     "pug": "2.0.0-rc.4",
     "winston": "3.0.0-rc1"
   }
